@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(https://images3.alphacoders.com/103/thumb-1920-1034710.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+.logo{
+	width: 60px;
+	height: 60px;
+	margin-left: 2%;
+	margin-top: 10px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	line-height: 80px;
+	display: inline-block;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	padding: 6px 13px;
+	font-family: 'Century Gothic';
+	font-weight: 600;
+	transition: .25s linear;
+}
+.navbar ul li a:hover{
+	background: blue;
+	border-radius: 6px;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 885px;
+	margin-top: 10px;
+	text-align: center;
+}
+.button{
+	margin: 35px 280px;
+}
+.button button{
+	height: 40px;
+	width: 130px;
+	font-size: 20px;
+	font-weight:bold;
+	color: #ffb3b3;
+	background: red;
+	border: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .5s linear;
+}
+.btn{
+	margin-left: 35px;
+}
+.button button:hover{
+	background: #cc0000;
+	font-size: 22px;
+}
+.sticky{
+	background-color: white;
+	padding: 18 0px;
+}
+.sticky .logo{
+	background-image: url(https://www.iconsdb.com/icons/preview/black/settings-xxl.png);
+}
+.cont {
+  text-align: justify;
+  display:flex;
+  justify-content:space-around;
+}
+.cont a{
+	display: inline-block;
+	color: white;
+	font-family: 'Century Gothic';
+	font-weight: 600;
+	text-decoration: none;
+	padding: 20px;
+}
+.forest {
+    width:30%; 
+    height:450px; 
+    background-image: url(https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    margin: 30px;
+}
+.space {
+    width:30%; 
+    height:450px;  
+    background-image: url(https://cdn.mos.cms.futurecdn.net/JcfcowCCbcG66fRnfsv5oS-650-80.jpg);
+    margin: 30px;
+}
+.land{
+    width:30%;  
+    height:450px;  
+    background-image: url(https://anyquestions.govt.nz/system/images/W1siZiIsIjIwMTkvMTIvMTkvMWVzMXFqMjhyMl9Sb2FkX3RvX21vdW50X2Nvb2tfbmV3X3plYWxhbmQuanBnIl1d/Road_to_mount_cook_new_zealand.jpg?sha=b646bf2ce74dda2a);
+    margin: 30px;
+}
